@@ -53,4 +53,4 @@ draft: true
 	<figcaption>ハイスコアに届かなかったがスコアシステムがわからないのでもやもやする。ひとまずノーミスを目指せばいいのだろうが…。</figcaption>
 </figure>
 
-<iframe src="https://itch.io/embed/546075" height="167" width="700" frameborder="0"><a href="https://palebits.itch.io/entity">ENTITY by Palebits, Glattax</a></iframe>
+<iframe src="https://itch.io/embed/546075" height="167" width="100%" frameborder="0"><a href="https://palebits.itch.io/entity">ENTITY by Palebits, Glattax</a></iframe>
