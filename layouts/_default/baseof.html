@@ -4,6 +4,13 @@
 		<meta charset="utf-8"/>
 		{{ hugo.Generator }}
 		<title>{{ .Title }}</title>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160755421-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-160755421-1');
+		</script>
 		<link rel="shortcut icon" href="/favicon.ico">
 		{{ $style := resources.Get "style.scss" | toCSS | minify | fingerprint }}
 		<link rel="stylesheet" href="{{ $style.Permalink }}" media="all">
