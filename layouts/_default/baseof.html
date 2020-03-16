@@ -15,6 +15,7 @@
 		<link rel="shortcut icon" href="/favicon.ico">
 		{{ $style := resources.Get "style.scss" | toCSS | minify }}
 		<style type="text/css">{{ $style.Content | safeCSS }}</style>
+		<meta property="og:title" content="{{ .Title }}" />
 		{{ if eq .CurrentSection.Section "review" }}
 			<meta name="description" content="{{ .Params.summary }}">
 			<meta name="twitter:card" content="summary_large_image" />
