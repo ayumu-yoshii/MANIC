@@ -1,0 +1,13 @@
+title = "MANIC | インディーゲームレビューサイト"
+baseURL = "https://manic.fun/"
+languageCode = "ja"
+paginate = 10
+
+[permalinks]
+  posts = "/:section/:slug/"
+
+[taxonomies]
+  tag = "tag"
+
+[markup.goldmark.renderer]
+  unsafe = true

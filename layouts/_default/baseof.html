@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		{{ hugo.Generator }}
+		<title>{{ .Title }}</title>
+		<link rel="shortcut icon" href="/favicon.ico">
+		{{ $style := resources.Get "style.scss" | toCSS | minify | fingerprint }}
+		<link rel="stylesheet" href="{{ $style.Permalink }}" media="all">
+		{{ block "ogp" . }}
+			{{ .Content }}
+		{{ end }}
+	</head>
+	<body>
+		<header>
+			<h1><a href="/">MANIC</a></h1>
+		</header>
+		<div class="container">
+			<main>
+				{{ block "content" . }}
+					{{ .Content }}
+				{{ end }}
+			</main>
+			<div class="spotlight">
+				{{ range $link := .Site.Data.spotlight.links }}
+					{{ with $.GetPage $link }}
+						<article>
+							<h1 class="small-header"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+							<video autoplay muted loop src="{{ .Params.movie }}"></video>
+						</article>
+					{{ end }}
+				{{ end }}
+			</div>
+		</div>
+		<footer>
+			<div class="container">
+				<small>&copy; <a href="/">manic.fun</a> 2020 <a href="https://creativecommons.org/licenses/by/4.0/deed.ja">CC BY 4.0</a></small>
+				<address>
+					<a href="/about/">MANICについて</a>
+					<a href="/review-guideline/">レビューガイドライン</a>
+					<a href="https://twitter.com/manic_fun">&commat;manic_fun</a>
+				</address>
+			</div>
+		</footer>
+	</body>
+</html>
+

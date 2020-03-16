@@ -1,0 +1,65 @@
+{{ define "ogp" }}
+	<meta name="description" content="{{ .Params.summary }}">
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:description" content="{{ .Params.summary }}" />
+	<meta name="twitter:title" content="{{ .Title }}" />
+	<meta name="twitter:site" content="@manic_fun" />
+	<meta name="twitter:image" content="{{ .Params.image }}" />
+{{ end }}
+
+{{ define "content" }}
+	<article>
+		{{ range .Params.tag }}
+			<a class="tag" href="/tag/{{ . }}/">{{ index $.Site.Data.display . }}</a>
+		{{ end }}
+		<time class="publish-date" pubdate="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006年1月2日" }}</time>
+		<h1>{{ .Title }}</h1>
+		<video autoplay muted loop src="{{ .Params.movie }}"></video>
+		{{ .Content }}
+		<div class="proscons">
+			<div>
+				<h3>GOOD</h3>
+				<ul>
+					{{ range .Params.good }}
+						<li>{{ . }}</li>
+					{{ end }}
+				</ul>
+			</div>
+			<div>
+				<h3>BAD</h3>
+				<ul>
+					{{ range .Params.bad }}
+						<li>{{ . }}</li>
+					{{ end }}
+				</ul>
+			</div>
+		</div>
+		<div class="conclusion">
+			<div class="score">
+				<ul>
+					{{ range (slice "masterpiece" "excellent" "great" "okay" "boring" "awful") }}
+						{{ if eq . $.Params.verdict }} <li class="verdict-score"> {{ else }} <li> {{ end }}
+							{{ index $.Site.Data.display . }}
+						</li>
+					{{ end }}
+				</ul>
+				<div class="verdict">
+					<span>{{ index $.Site.Data.display .Params.verdict }}</span>
+				</div>
+			</div>
+			<p class="summary">
+				{{ .Params.summary }}
+			</p>
+		</div>
+		<div class="infomation">
+			<span class="title">タイトル: {{ .Params.product }}</span>
+			<span class="author">作者: <a href="/tag/{{ .Params.author }}/">{{ .Params.author }}</a></span>
+			<span class="release">リリース: <time pubdate="{{ dateFormat "2006年01月02日" .Params.release }}">{{ dateFormat "2006年01月02日" .Params.release }}</time></span>
+			<span class="version">バージョン: {{ .Params.version }}</span>
+			<span class="platform">プラットフォーム: {{ .Params.platform }}</span>
+			<span class="language">言語: {{ .Params.language }}</span>
+			<span class="reviewer">レビュアー: <a href="/{{ .Params.reviewer }}/">{{ index $.Site.Data.display .Params.reviewer }}</a></span>
+			<span class="playtime">プレイ時間: {{ .Params.playtime }}</span>
+		</div>
+	</article>
+{{ end }}

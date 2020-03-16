@@ -1,0 +1,18 @@
+{{ define "ogp" }}
+	<meta name="description" content="{{ .Params.description }}">
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:description" content="{{ .Params.description }}" />
+	<meta name="twitter:title" content="{{ .Title }}" />
+	<meta name="twitter:site" content="@manic_fun" />
+{{ end }}
+
+{{ define "content" }}
+	<article>
+		{{ range .Params.tag }}
+			<a class="tag" href="/tag/{{ . }}/">{{ index $.Site.Data.display . }}</a>
+		{{ end }}
+		<time class="publish-date" pubdate="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006年1月2日" }}</time>
+		<h1>{{ .Title }}</h1>
+		{{ .Content }}
+	</article>
+{{ end }}

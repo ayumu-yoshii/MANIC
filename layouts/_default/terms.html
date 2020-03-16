@@ -1,0 +1,5 @@
+{{ define "content" }}
+	{{ range .Pages }}
+		<a class="tag" href="{{ .Permalink }}">{{ index $.Site.Data.display .Title }}</a>
+	{{ end }}
+{{ end }}

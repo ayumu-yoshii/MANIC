@@ -1,0 +1,25 @@
+# 判定
+masterpiece = "傑作"
+excellent = "秀作"
+great = "良作"
+okay = "佳作"
+boring = "凡作"
+awful = "駄作"
+maverick = "怪作"
+
+# レビュアー
+a-yoshii = "吉井歩"
+
+# ジャンル
+action-shooting = "アクションシューティング"
+point-and-click = "ポイントアンドクリック"
+
+# 作者
+simatten = "simatten"
+Palebits = "Palebits"
+
+# 特徴
+vivid = "ビビッド"
+kawaii = "kawaii"
+horror = "ホラー"
+cute = "キュート"
