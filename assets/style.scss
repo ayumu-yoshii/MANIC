@@ -2,6 +2,18 @@ $gothic: Meiryo, 'Osaka', 'Droid Sans', 'MS Gothic', sans-serif;
 $mincho: 'Yu Mincho', 'HiraMinProN-W6', 'MS Mincho', serif;
 $font: -apple-system, BlinkMacSystemFont, Arial, 'Droid Sans', 'HiraKakuProN-W6', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', Meiryo, 'MS Gothic';
 
+@media screen and (max-width:369px) {
+	header h1 {
+		font-size: 78px;
+	}
+}
+
+@media screen and (min-width:370px) {
+	header h1 {
+		font-size: 96px;
+	}
+}
+
 @media screen and (max-width:719px) {
 	header {
 		padding-left: 20px;
@@ -200,7 +212,6 @@ body {
 		border-bottom: solid 1px #ddd;
 
 		h1 {
-			font-size: 96px;
 			font-weight: 700;
 			letter-spacing: -10px;
 			margin: 0px auto;
@@ -226,14 +237,16 @@ body {
 						display: flex;
 						margin: 0px;
 						padding: 0px;
+						flex-wrap: wrap;
 
 						li {
-							margin-right: 5px;
+							margin: 0px 4px 4px 0px;
 						}
 					}
 
 					.publish-date {
 						color: #888;
+						white-space: nowrap;
 					}
 				}
 
