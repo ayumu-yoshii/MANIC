@@ -4,6 +4,10 @@ languageCode = "ja"
 publishDir = "docs"
 paginate = 10
 
+[Params]
+  description = "インディーゲームレビューサイト"
+  image = "/image.png"
+
 [permalinks]
   posts = "/:section/:slug/"
 

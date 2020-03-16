@@ -16,19 +16,22 @@
 		{{ $style := resources.Get "style.scss" | toCSS | minify }}
 		<style type="text/css">{{ $style.Content | safeCSS }}</style>
 		<meta property="og:title" content="{{ .Title }}" />
+		<meta name="twitter:site" content="@manic_fun" />
 		{{ if eq .CurrentSection.Section "review" }}
-			<meta name="description" content="{{ .Params.summary }}">
+			<meta name="description" content="{{ .Params.summary }}" />
+			<meta property="og:description" content="{{ .Params.summary }}" />
 			<meta name="twitter:card" content="summary_large_image" />
-			<meta property="og:image" content="{{ .Params.image }}" />
+			<meta property="og:image" content="{{ .Params.image | absURL }}" />
 		{{ else }}
-			{{ $description := "インディーゲームレビューサイト" }}
 			{{ if isset .Params "description" }}
-				<meta name="description" content="{{ .Params.description }}">
+				<meta name="description" content="{{ .Params.description }}" />
+				<meta property="og:description" content="{{ .Params.description }}" />
 			{{ else }}
-				<meta name="description" content="{{ $description }}">
+				<meta name="description" content="{{ .Site.Params.Description }}" />
+				<meta property="og:description" content="{{ .Site.Params.Description }}" />
 			{{ end }}
 			<meta name="twitter:card" content="summary" />
-			<meta property="og:image" content="/image.png" />
+			<meta property="og:image" content="{{ .Site.Params.Image | absURL }}" />
 		{{ end }}
 	</head>
 	<body>
