@@ -24,14 +24,14 @@ date: 2020-03-16T00:00:00+09:00
 ボタン1つでの操作になることから、スペースボタンが移動と攻撃の両方を兼ねることとなる。銃弾は撃ち続けると「からっぽ！」になってしまうが、ボタンを離すとチャージされて「まんたん！」になる。「からっぽ！」状態でも移動はできるが敵とぶつかるとやられてしまうのでリスキーだ。かといっていちいち立ち止まって「まんたん！」にしていてはクリアタイムが一向に縮まらない。また、敵を倒すと飴のようなアイテムをドロップし、これに触れることで一瞬で「まんたん！」状態になれる。
 
 <figure>
-	<video autoplay muted loop src="/asset/gummy-shooter/empty.mp4"></video>
+	<video playsinline autoplay muted loop src="/asset/gummy-shooter/empty.mp4"></video>
 	<figcaption>「からっぽ！」でも進めるが敵を倒すためには「まんたん！」にしておきたい。</figcaption>
 </figure>
 
 前述の通りグミシューターはメカニクスとしても十分ユニークで特徴的だ。しかし、本作最大の美点はなんと言ってもビジュアルスタイルにあるだろう。モダンでテンションの高いビジュアルは、慌ただしく忙しないゲームプレイと相まって形容し難い多幸感を与えてくれる。ランゲームとしての後戻りを咎めるメカニクスが、ポジティブなビジュアルをより引き立てている。メカニクスや演出のすべてがビジュアルの引き立て役であると言っても過言ではない。
 
 <figure>
-	<video autoplay muted loop src="/asset/gummy-shooter/hopping.mp4"></video>
+	<video playsinline autoplay muted loop src="/asset/gummy-shooter/hopping.mp4"></video>
 	<figcaption>ゲージ管理に焦点を絞ったスーパーミニマリスティックなゲームメカニクス。</figcaption>
 </figure>
 
@@ -41,7 +41,7 @@ date: 2020-03-16T00:00:00+09:00
 本作はランゲームにしては多少の後戻りを許容する。スペースボタンを連続して押せば連続してバク宙を繰り返し、徐々に後退が可能なのだ。しかし、そのようなプレイはチマチマした退屈なプレイでもある。そこで、敵を倒すことでゲージ回復アイテムをドロップさせ、連続して敵を倒す爽快なプレイを実現している。退屈なプレイを咎めるのではなく爽快なプレイを体験させることによって、作品自身の方向性をゲームプレイを通してプレイヤーに雄弁に語りかけている。
 
 <figure>
-	<video autoplay muted loop src="/asset/gummy-shooter/aggressive.mp4"></video>
+	<video playsinline autoplay muted loop src="/asset/gummy-shooter/aggressive.mp4"></video>
 	<figcaption>敵を倒してゲージを回復して敵を倒すアグレッシブなプレイサイクルは90年代FPSを彷彿とさせる。もちろん硬い敵相手だとこうはいかない。</figcaption>
 </figure>
 

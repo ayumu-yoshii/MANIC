@@ -34,12 +34,12 @@ draft: true
 </figure>
 
 <figure>
-	<video autoplay muted loop src="/asset/ENTITY/panic.mp4"></video>
+	<video playsinline autoplay muted loop src="/asset/ENTITY/panic.mp4"></video>
 	<figcaption>ああ！もう！ハエ叩きが取れない！ちょっと待ってってば！</figcaption>
 </figure>
 
 <figure>
-	<video autoplay muted loop src="/asset/ENTITY/gameover.mp4"></video>
+	<video playsinline autoplay muted loop src="/asset/ENTITY/gameover.mp4"></video>
 	<figcaption>終盤のラッシュはワンミスが命取り。</figcaption>
 </figure>
 

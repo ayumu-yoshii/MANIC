@@ -34,6 +34,11 @@ $font: Arial, 'HiraKakuProN-W6', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', Meiry
 
 			.infomation {
 				font-size: 10px;
+				margin: 20px -20px;
+
+				span {
+					margin-left: 20px;
+				}
 			}
 
 			img, video {
@@ -76,6 +81,7 @@ $font: Arial, 'HiraKakuProN-W6', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', Meiry
 
 	figcaption {
 		font-size: 12px;
+		font-weight: lighter;
 	}
 }
 
@@ -98,6 +104,7 @@ $font: Arial, 'HiraKakuProN-W6', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', Meiry
 
 	p {
 		font-size: 20px;
+		font-weight: 500;
 	}
 
 	figcaption {
@@ -126,6 +133,7 @@ $font: Arial, 'HiraKakuProN-W6', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', Meiry
 
 			.infomation {
 				font-size: 14px;
+				margin: 20px 0px;
 			}
 
 			img, video {
@@ -294,7 +302,6 @@ body {
 
 				.infomation {
 					display: grid;
-					margin: 20px 0px;
 					padding-top: 5px;
 					border-top: 1px solid #181818;
 					font-weight: bold;
@@ -454,7 +461,6 @@ a:hover {
 
 p {
 	font-family: $font;
-	font-weight: 500;
 	line-height: 1.6em;
 	margin: 30px auto;
 	text-indent: 1em;
