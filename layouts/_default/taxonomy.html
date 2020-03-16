@@ -6,7 +6,7 @@
 			{{ end }}
 			<time class="publish-date" pubdate="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006年1月2日" }}</time>
 			<h1 class="medium-header"><a class="header" href="{{ .Permalink }}">{{ .Title }}</a></h1>
-			<video autoplay muted loop src="{{ .Params.movie }}"></video>
+			<video playsinline autoplay muted loop src="{{ .Params.movie }}"></video>
 		</article>
 	{{ end }}
 	{{ partial "pagination.html" . }}

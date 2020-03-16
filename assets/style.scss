@@ -1,13 +1,13 @@
-$gothic: Meiryo, 'Osaka', 'Droid Sans', 'MS Gothic';
-$mincho: 'Yu Mincho', 'HiraMinProN-W6', 'MS Mincho';
-$font: Arial, 'HiraKakuProN-W6', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', Meiryo, 'Droid Sans', 'MS Gothic';
+$gothic: Meiryo, 'Osaka', 'Droid Sans', 'MS Gothic', sans-serif;
+$mincho: 'Yu Mincho', 'HiraMinProN-W6', 'MS Mincho', serif;
+$font: -apple-system, BlinkMacSystemFont, Arial, 'HiraKakuProN-W6', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', Meiryo, 'Droid Sans', 'MS Gothic';
 
 @media screen and (max-width:719px) {
 	header {
 		padding-left: 20px;
 	}
 
-	body .container {
+	body > .container {
 		padding: 0px 20px;
 
 		main {
@@ -27,8 +27,7 @@ $font: Arial, 'HiraKakuProN-W6', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', Meiry
 				margin-left: -20px;
 
 				.verdict {
-					width: 120px;
-					font-size: 58px;
+					display: none;
 				}
 			}
 
@@ -37,7 +36,7 @@ $font: Arial, 'HiraKakuProN-W6', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', Meiry
 				margin: 20px -20px;
 
 				span {
-					margin-left: 20px;
+					margin: 0px 10px;
 				}
 			}
 
@@ -53,6 +52,7 @@ $font: Arial, 'HiraKakuProN-W6', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', Meiry
 
 	footer {
 		font-size: 10px;
+		text-align: center;
 
 		address {
 			margin-top: 8px;
@@ -111,7 +111,10 @@ $font: Arial, 'HiraKakuProN-W6', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', Meiry
 		font-size: 18px;
 	}
 
-	body .container {
+	.container {
+		display: flex;
+		justify-content: space-between;
+
 		main {
 			.proscons {
 				display: flex;
@@ -127,8 +130,9 @@ $font: Arial, 'HiraKakuProN-W6', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', Meiry
 			}
 
 			.score .verdict {
-				width: 150px;
-				font-size: 72px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
 			}
 
 			.infomation {
@@ -149,11 +153,6 @@ $font: Arial, 'HiraKakuProN-W6', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', Meiry
 	footer {
 		font-size: 15px;
 
-		.container {
-			display: flex;
-			justify-content: space-between;
-		}
-
 		small {
 			font-size: 14px;
 		}
@@ -165,7 +164,7 @@ $font: Arial, 'HiraKakuProN-W6', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', Meiry
 		width: 700px;
 	}
 
-	body .container {
+	.container {
 		width: 700px;
 
 		.spotlight {
@@ -179,9 +178,7 @@ $font: Arial, 'HiraKakuProN-W6', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', Meiry
 		width: 1080px;
 	}
 
-	body .container {
-		display: flex;
-		justify-content: space-between;
+	.container {
 		width: 1080px;
 
 		main {
@@ -265,10 +262,9 @@ body {
 						font-weight: 900;
 
 						.verdict {
-							display: flex;
-							align-items: center;
-							justify-content: center;
 							font-family: $mincho;
+							width: 150px;
+							font-size: 72px;
 							letter-spacing: -4px;
 							color: #181818;
 						}
@@ -295,8 +291,7 @@ body {
 					}
 
 					.summary {
-						margin: 0px;
-						padding: 10px;
+						margin: 0px 0px 0px 10px;
 					}
 				}
 
