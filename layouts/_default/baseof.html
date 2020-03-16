@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
 		{{ hugo.Generator }}
 		<title>{{ .Title }}</title>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160755421-1"></script>
@@ -12,8 +13,8 @@
 			gtag('config', 'UA-160755421-1');
 		</script>
 		<link rel="shortcut icon" href="/favicon.ico">
-		{{ $style := resources.Get "style.scss" | toCSS | minify | fingerprint }}
-		<link rel="stylesheet" href="{{ $style.Permalink }}" media="all">
+		{{ $style := resources.Get "style.scss" | toCSS | minify }}
+		<style type="text/css">{{ $style.Content | safeCSS }}</style>
 		{{ block "ogp" . }}
 			{{ .Content }}
 		{{ end }}
