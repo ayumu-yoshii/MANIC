@@ -1,7 +1,7 @@
 ---
 title: "MANICについて"
 slug: "about"
-description: "インディーゲーム専門レビューサイトMANICについて。"
+description: "インディーゲームレビューサイトMANICについて。"
 date: 2020-03-16T00:00:00+09:00
 ---
 

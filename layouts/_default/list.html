@@ -1,12 +1,11 @@
 {{ define "content" }}
 	{{ range (.Paginate (where .Site.RegularPages "Section" "review")).Pages }}
 		<article>
-			{{ range .Params.tag }}
-				<a class="tag" href="/tag/{{ . }}/">{{ index $.Site.Data.display . }}</a>
-			{{ end }}
-			<time class="publish-date" pubdate="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006年1月2日" }}</time>
-			<h1 class="medium-header"><a class="header" href="{{ .Permalink }}">{{ .Title }}</a></h1>
-			<video playsinline autoplay muted loop src="{{ .Params.movie }}"></video>
+			{{ partial "header.html" . }}
+			<a class="no-underline" href="{{ .Permalink }}">
+				<h1 class="medium-header">{{ .Title }}</h1>
+				<video playsinline autoplay muted loop src="{{ .Params.movie }}"></video>
+			</a>
 		</article>
 	{{ end }}
 	{{ partial "pagination.html" . }}

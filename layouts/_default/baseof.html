@@ -15,8 +15,19 @@
 		<link rel="shortcut icon" href="/favicon.ico">
 		{{ $style := resources.Get "style.scss" | toCSS | minify }}
 		<style type="text/css">{{ $style.Content | safeCSS }}</style>
-		{{ block "ogp" . }}
-			{{ .Content }}
+		{{ if eq .CurrentSection.Section "review" }}
+			<meta name="description" content="{{ .Params.summary }}">
+			<meta name="twitter:card" content="summary_large_image" />
+			<meta property="og:image" content="{{ .Params.image }}" />
+		{{ else }}
+			{{ $description := "インディーゲームレビューサイト" }}
+			{{ if isset .Params "description" }}
+				<meta name="description" content="{{ .Params.description }}">
+			{{ else }}
+				<meta name="description" content="{{ $description }}">
+			{{ end }}
+			<meta name="twitter:card" content="summary" />
+			<meta property="og:image" content="/image.png" />
 		{{ end }}
 	</head>
 	<body>
@@ -33,8 +44,10 @@
 				{{ range $link := .Site.Data.spotlight.links }}
 					{{ with $.GetPage $link }}
 						<article>
-							<h1 class="small-header"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-							<video autoplay muted loop src="{{ .Params.movie }}"></video>
+							<a class="no-underline" href="{{ .Permalink }}">
+								<h1 class="small-header">{{ .Title }}</h1>
+								<video playsinline autoplay muted loop src="{{ .Params.movie }}"></video>
+							</a>
 						</article>
 					{{ end }}
 				{{ end }}
