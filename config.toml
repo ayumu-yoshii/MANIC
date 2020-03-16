@@ -1,6 +1,7 @@
 title = "MANIC | インディーゲームレビューサイト"
 baseURL = "https://manic.fun/"
 languageCode = "ja"
+publishDir = "docs"
 paginate = 10
 
 [permalinks]
