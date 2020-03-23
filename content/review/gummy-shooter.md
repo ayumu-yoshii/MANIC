@@ -5,7 +5,7 @@ image: "/asset/gummy-shooter/title.png"
 movie: "/asset/gummy-shooter/op.mp4"
 verdict: "great"
 summary: "kawaiiビジュアルとそれに応えるハイテンションなメカニクスは確かな多幸感に満ちている。作品の姿勢をゲームプレイを通してプレイヤーに語りかけるオープニングシーケンスはゲームならではな演出手法として一級品。"
-good: ["kawaiiビジュアル", "ハイテンションなゲームプレイ", "傑出したオープニングシーケンス"]
+good: ["傑出したオープニングシーケンス", "ハイテンションなゲームプレイ", "kawaiiビジュアル"]
 bad: ["飛ばせないオープニング", "多様性に欠けるゲームプレイ"]
 product: "グミシューター"
 author: "simatten"
