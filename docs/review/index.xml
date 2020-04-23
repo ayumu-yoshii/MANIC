@@ -1,1 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reviews on MANIC | インディーゲームレビューサイト</title><link>https://manic.fun/review/</link><description>Recent content in Reviews on MANIC | インディーゲームレビューサイト</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Mon, 23 Mar 2020 00:00:00 +0900</lastBuildDate><atom:link href="https://manic.fun/review/index.xml" rel="self" type="application/rss+xml"/><item><title>迫りくる虫や幽霊をポイントアンドクリックで撃退するキュートホラーパズル『ENTITY』レビュー</title><link>https://manic.fun/review/entity/</link><pubDate>Mon, 23 Mar 2020 00:00:00 +0900</pubDate><guid>https://manic.fun/review/entity/</guid><description>ENTITYが世界一キュートなホラーゲームであることは間違いない。しかし、因果関係が不明瞭な多くのパズルが初見プレイヤーのホラー体験やチャレンジを阻害する。パズル部分がもう少し整理されていればと思わざるを得ない。</description></item><item><title>とにかくkawaiiビビッドアクションシュー『グミシューター』レビュー</title><link>https://manic.fun/review/gummy-shooter/</link><pubDate>Mon, 16 Mar 2020 00:00:00 +0900</pubDate><guid>https://manic.fun/review/gummy-shooter/</guid><description>kawaiiビジュアルとそれに応えるハイテンションなメカニクスは確かな多幸感に満ちている。作品の姿勢をゲームプレイを通してプレイヤーに語りかけるオープニングシーケンスはゲームならではな演出手法として一級品。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reviews on MANIC | インディーゲームレビューサイト</title>
+    <link>https://manic.fun/review/</link>
+    <description>Recent content in Reviews on MANIC | インディーゲームレビューサイト</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 23 Apr 2020 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://manic.fun/review/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>パズルプラットフォーマーの皮を被った、ゲームそのものをからかって遊ぶゲーム『STRANGE KEYWORLD』レビュー</title>
+      <link>https://manic.fun/review/strange-keyworld/</link>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://manic.fun/review/strange-keyworld/</guid>
+      <description>STRANGE KEYWORLDは一見すると操作に応じて足場が変わるパズルプラットフォーマーだが、その実ゲームそのものをからかって遊ぶゲーマーへのラブレターであり、ゲーマーであればあるほど微笑ましく感じられるだろう。</description>
+    </item>
+    
+    <item>
+      <title>迫りくる虫や幽霊をポイントアンドクリックで撃退するキュートホラーパズル『ENTITY』レビュー</title>
+      <link>https://manic.fun/review/entity/</link>
+      <pubDate>Mon, 23 Mar 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://manic.fun/review/entity/</guid>
+      <description>ENTITYが世界一キュートなホラーゲームであることは間違いない。しかし、因果関係が不明瞭な多くのパズルが初見プレイヤーのホラー体験やチャレンジを阻害する。パズル部分がもう少し整理されていればと思わざるを得ない。</description>
+    </item>
+    
+    <item>
+      <title>とにかくkawaiiビビッドアクションシュー『グミシューター』レビュー</title>
+      <link>https://manic.fun/review/gummy-shooter/</link>
+      <pubDate>Mon, 16 Mar 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://manic.fun/review/gummy-shooter/</guid>
+      <description>kawaiiビジュアルとそれに応えるハイテンションなメカニクスは確かな多幸感に満ちている。作品の姿勢をゲームプレイを通してプレイヤーに語りかけるオープニングシーケンスはゲームならではな演出手法として一級品。</description>
+    </item>
+    
+  </channel>
+</rss>

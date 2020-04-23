@@ -67,4 +67,6 @@ date: 2020-03-16T00:00:00+09:00
 ## 総評
 飛ばせないオープニングや代わり映えしないゲームプレイなどの不満点もあるが、ビジュアルと演出の洪水がそれらを洗い流してくれる。ミニマリスティックなメカニクスと過剰なまでに派手なビジュアルと演出は噛み合わないどころか一体であるとさえ感じられる。短く集中を要するゲームプレイやチカチカしたビジュアルから、ノリのいいVJのいるクラブで体を揺らす体験を想起させられる。クリア時には心地よい疲労感に包まれるだろう。
 
-<iframe src="https://itch.io/embed/511686" height="167" width="100%" frameborder="0"><a href="https://simatten.itch.io/gummy-shooter">GummyShooter/グミシューター by simatten</a></iframe>
+<iframe src="https://itch.io/embed/511686" height="167" width="100%" frameborder="0">
+	<a href="https://simatten.itch.io/gummy-shooter">GummyShooter/グミシューター by simatten</a>
+</iframe>

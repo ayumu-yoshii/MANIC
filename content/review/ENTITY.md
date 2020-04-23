@@ -86,4 +86,6 @@ ENTITYは敵の倒し方を推察する遊びとしてデザインされたゲ�
 ## 総評
 キュートでコミカルながらも迫りくる恐怖を描くことに成功した基本メカニクスは秀逸そのもの。しかし、因果関係が不明瞭なパズルが全てを台無しにしてしまう。緩急のあるレベルデザインや終盤のチャレンジングな難易度など優れた点も少なくないが、退屈な序盤や不明瞭なスコアシステムなどの不満点を隠し切るには至らない。
 
-<iframe src="https://itch.io/embed/546075" height="167" width="100%" frameborder="0"><a href="https://palebits.itch.io/entity">ENTITY by Palebits, Glattax</a></iframe>
+<iframe src="https://itch.io/embed/546075" height="167" width="100%" frameborder="0">
+	<a href="https://palebits.itch.io/entity">ENTITY by Palebits, Glattax</a>
+</iframe>

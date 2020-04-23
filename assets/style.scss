@@ -275,7 +275,6 @@ body {
 					}
 
 					ul {
-						list-style: circle;
 						margin: 0px;
 						padding: 5px 0px 0px 25px;
 					}
@@ -489,6 +488,10 @@ p {
 	line-height: 1.6em;
 	margin: 30px auto;
 	text-indent: 1em;
+}
+
+ul {
+	list-style: circle;
 }
 
 address {

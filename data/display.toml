@@ -13,13 +13,17 @@ a-yoshii = "吉井歩"
 # ジャンル
 action-shooting = "アクションシューティング"
 point-and-click = "ポイントアンドクリック"
+platformer = "プラットフォーマー"
+puzzle-action = "パズルアクション"
 
 # 作者
 simatten = "simatten"
 Palebits = "Palebits"
+GMshara = "GMshara"
 
 # 特徴
 vivid = "ビビッド"
 kawaii = "kawaii"
 horror = "ホラー"
 cute = "キュート"
+monochrome = "モノクロ"
