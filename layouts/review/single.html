@@ -45,6 +45,7 @@
 			<span class="release">リリース: <time pubdate="{{ dateFormat "2006年01月02日" .Params.release }}">{{ dateFormat "2006年01月02日" .Params.release }}</time></span>
 			<span class="version">バージョン: {{ .Params.version }}</span>
 			<span class="platform">プラットフォーム: {{ .Params.platform }}</span>
+			<span class="price">価格: {{ .Params.price }}</span>
 			<span class="language">言語: {{ .Params.language }}</span>
 			<span class="reviewer">レビュアー: <a href="/{{ .Params.reviewer }}/">{{ index $.Site.Data.display .Params.reviewer }}</a></span>
 			<span class="playtime">プレイ時間: {{ .Params.playtime }}</span>

@@ -15,6 +15,7 @@ platform: "Windows"
 language: "日本語"
 reviewer: "a-yoshii"
 playtime: "1時間"
+price: "無料"
 tag: ["masterpiece", "platformer", "puzzle-action", "GMshara", "monochrome"]
 date: 2020-04-23T00:00:00+09:00
 ---
@@ -90,7 +91,7 @@ STRANGE KEYWORLDは相応にチャレンジングなゲームであり、特に�
 
 <figure>
 	<video playsinline autoplay muted loop src="/asset/STRANGE-KEYWORLD/space.mp4"></video>
-	<figcaption></figcaption>
+	<figcaption>レベル遷移の前後でキー入力の判定が持続するというゲーマーあるある。</figcaption>
 </figure>
 
 パズルとしてみたとき、このレベルのフェアネスは相当に怪しい。1つ前のレベルではジャンプの必要がないにもかかわらずスペースキーに対応する足場が存在することが一応のヒントにはなっているが、そもそも説明されない仕様に依存しすぎている。
@@ -99,7 +100,7 @@ STRANGE KEYWORLDは相応にチャレンジングなゲームであり、特に�
 
 <figure>
 	<video playsinline autoplay muted loop src="/asset/STRANGE-KEYWORLD/dirty.mp4"></video>
-	<figcaption></figcaption>
+	<figcaption>STRANGE KEYWORLDは左右同時入力で移動しなくなるタイプのゲーム。他には左入力優先タイプなどがある。</figcaption>
 </figure>
 
 これもまた非常にダーティーなパズルと言える。左入力に対応する足場がこれみよがしに置かれていることがヒントになっていると言えなくもないが、本作の持つからかいのムードをよく表している。

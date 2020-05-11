@@ -102,7 +102,7 @@ $font: -apple-system, BlinkMacSystemFont, Arial, 'Droid Sans', 'HiraKakuProN-W6'
 	}
 
 	h1 {
-		font-size: 40px;
+		font-size: 36px;
 	}
 
 	.medium-header, h2 {
@@ -137,6 +137,14 @@ $font: -apple-system, BlinkMacSystemFont, Arial, 'Droid Sans', 'HiraKakuProN-W6'
 
 				ul {
 					font-size: 20px;
+				}
+
+				div {
+					min-width: 40%;
+
+					&:last-child {
+						margin-left: 20px;
+					}
 				}
 			}
 
@@ -241,7 +249,7 @@ body {
 						flex-wrap: wrap;
 
 						li {
-							margin: 0px 4px 4px 0px;
+							margin-right: 4px;
 						}
 					}
 
@@ -268,7 +276,7 @@ body {
 				}
 
 				.proscons {
-					margin: 30px;
+					margin: 30px 20px;
 
 					h3 {
 						margin: 0px;
@@ -354,18 +362,23 @@ body {
 						grid-row: 2 / 3;
 					}
 
-					.playtime {
+					.price {
 						grid-column: 3 / 4;
 						grid-row: 2 / 3;
 					}
 
-					.version {
+					.playtime {
 						grid-column: 1 / 2;
 						grid-row: 3 / 4;
 					}
 
-					.language {
+					.version {
 						grid-column: 2 / 3;
+						grid-row: 3 / 4;
+					}
+
+					.language {
+						grid-column: 3 / 4;
 						grid-row: 3 / 4;
 					}
 				}

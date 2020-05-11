@@ -15,6 +15,7 @@ platform: "Windows, Android"
 language: "日本語あり"
 reviewer: "a-yoshii"
 playtime: "30分"
+price: "無料"
 tag: ["great", "action-shooting", "simatten", "vivid", "kawaii"]
 date: 2020-03-16T00:00:00+09:00
 ---

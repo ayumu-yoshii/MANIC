@@ -15,6 +15,7 @@ platform: "Windows, macOS"
 language: "英語(図鑑テキスト以外はテキストなし)"
 reviewer: "a-yoshii"
 playtime: "1時間"
+price: "無料"
 tag: ["okay", "point-and-click", "Palebits", "horror", "cute"]
 date: 2020-03-23T00:00:00+09:00
 ---

@@ -15,11 +15,14 @@ action-shooting = "アクションシューティング"
 point-and-click = "ポイントアンドクリック"
 platformer = "プラットフォーマー"
 puzzle-action = "パズルアクション"
+rail-shooter = "レールシューター"
+twin-stick-shooter = "ツインスティックシューター"
 
 # 作者
 simatten = "simatten"
 Palebits = "Palebits"
 GMshara = "GMshara"
+LegionGames = "LegionGames"
 
 # 特徴
 vivid = "ビビッド"
@@ -27,3 +30,4 @@ kawaii = "kawaii"
 horror = "ホラー"
 cute = "キュート"
 monochrome = "モノクロ"
+lo-fi = "Lo-Fi"
