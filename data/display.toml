@@ -12,6 +12,7 @@ a-yoshii = "吉井歩"
 
 # ジャンル
 action-shooting = "アクションシューティング"
+text-adventure = "テキストアドベンチャー"
 point-and-click = "ポイントアンドクリック"
 platformer = "プラットフォーマー"
 puzzle-action = "パズルアクション"
@@ -20,6 +21,7 @@ twin-stick-shooter = "ツインスティックシューター"
 
 # 作者
 simatten = "simatten"
+Somi = "Somi"
 Palebits = "Palebits"
 GMshara = "GMshara"
 LegionGames = "LegionGames"
@@ -31,3 +33,4 @@ horror = "ホラー"
 cute = "キュート"
 monochrome = "モノクロ"
 lo-fi = "Lo-Fi"
+introspective = "内省的"

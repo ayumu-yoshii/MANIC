@@ -19,7 +19,7 @@ MANIC管理人の吉井です。
 一番好きなDRPGは『[ルフランの地下迷宮と魔女ノ旅団](https://store.steampowered.com/app/566540/_/)』、一番好きなSTGは『[BLUE REVOLVER](https://store.steampowered.com/app/439490/BLUE_REVOLVER/)』です。
 
 <figure>
-	<video muted autoplay loop src="/asset/a-yoshii/blue_revolver.mp4" title="https://www.youtube.com/watch?v=7IP6Qz8G-CM"></video>
+	<video muted autoplay loop src="/asset/a-yoshii/blue-revolver.mp4" title="https://www.youtube.com/watch?v=7IP6Qz8G-CM"></video>
 	<figcaption>『BLUE REVOLVER』遊ぶ合法ドラッグ</figcaption>
 </figure>
 
@@ -35,7 +35,7 @@ MANIC管理人の吉井です。
 どちらもフレーバー程度に出る分には問題ないですが、コアバリューとして出てこられると辛いです。
 
 <figure>
-	<img src="/asset/a-yoshii/hyper_light_drifter.jpg" title="https://store.steampowered.com/app/257850/Hyper_Light_Drifter/">
+	<img src="/asset/a-yoshii/hyper-light-drifter.jpg" title="https://store.steampowered.com/app/257850/Hyper_Light_Drifter/">
 	<figcaption>『Hyper Light Drifter』モダンピクセルアートの立役者</figcaption>
 </figure>
 
